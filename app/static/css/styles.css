@@ -8,15 +8,15 @@
 }
 
 #cats{
-  color: rgb(255, 255, 255);
+  color: rgb(255, 136, 0);
   font-size: 18px;
 }
 #carded{
   border-radius:6px; 
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(235, 141, 0);
 }
 #posts{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 115, 0);
   font-weight: bolder;
   margin-top: 2%;
   font-size: 40px;
@@ -30,26 +30,26 @@
   
 }
 #postform{
-  color: rgb(184, 0, 0);
+  color: rgb(255, 94, 0);
   margin-top: 3%;
-  background-color: rgb(58, 10, 10);
+  background-color: rgb(255, 123, 0);
   padding:3%;
   border-radius: 8px;
   z-index: 1;
 }
 #login{
   margin-top: 5%;
-  color: rgb(255, 0, 0);
-  background-color: rgb(255, 0, 0);
+  color: rgb(255, 123, 0);
+  background-color: rgb(255, 102, 0);
   border-radius: 8px;
   padding:3%;
 }
 #sign{
-  color:rgb(21, 202, 5);
+  color:rgb(255, 145, 0);
   text-decoration: underline;
 }
 #coms{
-  color: rgb(163, 87, 87);
+  color: rgb(240, 156, 0);
 }
 #allcomments{
   /* background-color: rgba(0, 0, 0, 0.589); */
@@ -59,23 +59,23 @@
   
 }
 .commentform{
-  color: rgb(173, 99, 99);
+  color: rgb(255, 117, 4);
   margin-top: 1%;
 }
 #user{
   margin-top: 4%;
-  color: rgb(50, 114, 53);
+  color: rgb(255, 187, 0);
 }
 .pitches{
-  background-color: rgb(255, 0, 0);
-  color: rgb(153, 85, 85);
+  background-color: rgb(255, 166, 0);
+  color: rgb(255, 196, 0);
   padding: 2%;
   border-radius: 8px;
   margin-bottom: 1%;
 }
 .updateprofile{
   margin-top: 5%;
-  color: rgb(0, 0, 0)
+  color: rgb(255, 187, 0)
 }
 #particles-js {
   /* height: inherit; */

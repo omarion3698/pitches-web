@@ -1,6 +1,10 @@
 {% extends 'base.html'%}
 {% import 'macros.html' as macro %}
 
+{% block styles %}
+{{ super()}}
+{% endblock %}
+
 {% block content %}
         <div  class="container" id="particles-js">
                 <h2 class="text-center" id="posts">All Pitches</h2>

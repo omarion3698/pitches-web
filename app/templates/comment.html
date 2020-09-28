@@ -1,4 +1,4 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 {% import 'bootstrap/wtf.html' as wtf %}
 
 {% block content %}
@@ -34,5 +34,8 @@
                 </div>
             {%endif%}
     </div>
+    {% block styles %}
+    {{ super()}}
+    {% endblock %}
    
 {% endblock%}
