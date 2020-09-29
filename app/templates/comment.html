@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% import 'bootstrap/wtf.html' as wtf %}
 
+    {% block styles %}
+    {{ super()}}
+    {% endblock %}
+   
 {% block content %}
     <div class="container" id="allcomments" >
         <div class="row">
@@ -34,8 +38,5 @@
                 </div>
             {%endif%}
     </div>
-    {% block styles %}
-    {{ super()}}
-    {% endblock %}
-   
+    
 {% endblock%}
