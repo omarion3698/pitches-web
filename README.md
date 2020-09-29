@@ -26,25 +26,25 @@ To get the code..
 
 1. Cloning the repository:
 
-  https://github.com/omarion3698/pitches-web.git
+    https://github.com/omarion3698/pitches-web.git
 
 2. Move to the folder and install requirements
 
-  ###### cd pitches-web
+    ###### cd pitches-web
 
-  ###### pip install -r requirements.txt
+    ###### pip install -r requirements.txt
 
 3. Exporting Configurations
 
-  ###### export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+    ###### export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
 
 4. Running the application
 
-  ###### python3.8 manage.py server
+    ###### python3.8 manage.py server
 
 5. Testing the application
 
-  ###### python3.8 manage.py test
+    ###### python3.8 manage.py test
 
 6. Open the application on your browser 127.0.0.1:5000.
 
