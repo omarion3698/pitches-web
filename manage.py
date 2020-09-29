@@ -4,8 +4,7 @@ from flask_script import Manager, Server
 from app.models import User
 
 # creating an app instance
-app = create_app('development')
-# app = create_app('production')
+app = create_app('production')
 
 manager = Manager(app)
 migrate = Migrate(app,db)
